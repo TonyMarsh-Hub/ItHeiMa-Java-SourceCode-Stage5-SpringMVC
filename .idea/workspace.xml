@@ -4,39 +4,117 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eea11ccf-ba2d-4d48-84a2-21fc95f9b06b" name="Changes" comment=":tada: begin new project">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_01_quickstart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_01_quickstart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_05-response.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_05-response/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_06_rest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_09_result.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_09_result/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_10_exception.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_11_page.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_11_page/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_12_interceptor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_12_interceptor/pom.xml" afterDir="false" />
+    <list default="true" id="eea11ccf-ba2d-4d48-84a2-21fc95f9b06b" name="Changes" comment=":beers: add modules">
+      <change afterPath="$PROJECT_DIR$/springmvc_01_quickstart/src/main/java/com/itheima/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_01_quickstart/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_01_quickstart/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_01_quickstart/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/com/itheima/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/com/itheima/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping/src/main/java/com/itheima/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping/src/main/java/com/itheima/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/itheima/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/itheima/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_05-response/src/main/java/com/itheima/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_05-response/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_05-response/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_05-response/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_05-response/src/main/webapp/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/src/main/java/BookController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/src/main/java/com/itheima/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/src/main/java/com/itheima/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/src/main/java/com/itheima/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/java/com/itheima/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/java/com/itheima/config/SpringMvcSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/java/com/itheima/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/java/com/itheima/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/pages/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/java/com/itheima/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/src/test/java/com/itheima/service/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/controller/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/controller/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/java/com/itheima/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/src/test/java/com/itheima/service/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/controller/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/controller/ProjectExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/controller/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/java/com/itheima/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/src/test/java/com/itheima/service/BookServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ItHeiMa-Java-SourceCode-Stage5-SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ItHeiMa-Java-SourceCode-Stage5-SpringMVC.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +152,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "1.8.0_152",
+    "last_opened_file_path": "/Users/tonymarsh/Developments/ItHeiMa-Java-SourceCode-Stage5-SpringMVC/springmvc_10_exception/src/test/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +164,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springmvc_08_ssm/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springmvc_08_ssm/src/main/java" />
+      <recent name="$PROJECT_DIR$/springmvc_07_rest_case/src/main" />
+      <recent name="$PROJECT_DIR$/springmvc_07_rest_case/src/main/java" />
+      <recent name="$PROJECT_DIR$/springmvc_06_rest/src/main" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,7 +183,7 @@
       <updated>1670175183718</updated>
       <workItem from="1670175184181" duration="109000" />
       <workItem from="1670175310533" duration="102000" />
-      <workItem from="1670175426691" duration="675000" />
+      <workItem from="1670175426691" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: begin new projectˆ">
       <created>1670175258199</created>
@@ -111,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670175275661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":beers: add modules">
+      <created>1670176232183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670176232183</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +226,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":tada: begin new projectˆ" />
     <MESSAGE value=":tada: begin new project" />
-    <option name="LAST_COMMIT_MESSAGE" value=":tada: begin new project" />
+    <MESSAGE value=":beers: add modulesˆ" />
+    <MESSAGE value=":beers: add modules" />
+    <option name="LAST_COMMIT_MESSAGE" value=":beers: add modules" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
