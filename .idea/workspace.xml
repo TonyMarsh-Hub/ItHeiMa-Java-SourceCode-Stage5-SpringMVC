@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eea11ccf-ba2d-4d48-84a2-21fc95f9b06b" name="Changes" comment="" />
+    <list default="true" id="eea11ccf-ba2d-4d48-84a2-21fc95f9b06b" name="Changes" comment=":tada: begin new project">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_01_quickstart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_01_quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_02_bean_load/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_03_request_mapping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_04_request_param/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_05-response.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_05-response/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_06_rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_07_rest_case/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_08_ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_09_result/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_10_exception/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_11_page.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_11_page/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_12_interceptor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_12_interceptor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ItHeiMa-Java-SourceCode-Stage5-SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ItHeiMa-Java-SourceCode-Stage5-SpringMVC.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +46,20 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2ISVsw6K2Y820aFiU0Mgl4DaV1J" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,9 +68,21 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "MTConfigurable"
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "1.8.0_152",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.19154443",
+    "project.structure.side.proportion": "0.25074628",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -33,8 +93,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670175183718</updated>
+      <workItem from="1670175184181" duration="109000" />
+      <workItem from="1670175310533" duration="102000" />
+      <workItem from="1670175426691" duration="675000" />
     </task>
+    <task id="LOCAL-00001" summary=":tada: begin new projectˆ">
+      <created>1670175258199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670175258199</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":tada: begin new project">
+      <created>1670175275661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670175275661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":tada: begin new projectˆ" />
+    <MESSAGE value=":tada: begin new project" />
+    <option name="LAST_COMMIT_MESSAGE" value=":tada: begin new project" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
